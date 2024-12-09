@@ -35,9 +35,9 @@ function pageFilter(){
                 for (let i = 0; i < itemArray.length; i++) {
                     content += `
                     <a href="anime_description" class="card" itemId="${itemArray[i].itemId}" onclick="setItemId(this.getAttribute('itemId'))">
-                    ` + 
-                    //<img src="${subItem.img}" alt="${subItem.alt}" class="card-image">
-                    `<div class="title-container">
+                     
+                    <img src="${itemArray[i].img}" alt="${itemArray[i].alt}" class="card-image">
+                    <div class="title-container">
                     <h3 class="title">${itemArray[i].title}</h3>
                     </div>
                     </a>
@@ -54,9 +54,9 @@ function pageFilter(){
                     item.items.forEach(subItem => {
                         content += `
                         <a href="anime_description" class="card" itemId="${subItem.itemId}" onclick="setItemId(this.getAttribute('itemId'))">
-                        ` + 
-                        //<img src="${subItem.img}" alt="${subItem.alt}" class="card-image">
-                        `<div class="title-container">
+                        
+                        <img src="${subItem.img}" alt="${subItem.alt}" class="card-image">
+                        <div class="title-container">
                         <h3 class="title">${subItem.title}</h3>
                         </div>
                         </a>

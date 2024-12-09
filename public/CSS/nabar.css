@@ -1,12 +1,15 @@
 .navbar {
     background: #131313;
     height: 80px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
+    right: 0;
+    left: 0;
     z-index: 999;
   }
   
@@ -16,9 +19,8 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 50px;
+    margin: 0 10px;
+    padding: 0 5px;
   }
   
   #navbar_logo {

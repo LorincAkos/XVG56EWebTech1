@@ -202,29 +202,6 @@
           "rating": "PG-13",
           "score": "7.2",
           "trailer": ""
-        },
-        {
-          "itemId": 10,
-          "img": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
-          "alt": "Naruto Picture",
-          "title": "Naruto",
-          "description": "The story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the village's leader and strongest ninja.",
-          "type": "TV",
-          "episode": "220",
-          "start": "2003-10-03",
-          "end": "2007-02-08",
-          "status": "Finished",
-          "producers": "Aniplex",
-          "licensors": "Viz Media",
-          "studios": "Pierrot",
-          "genres": [
-            "action",
-            "fantasy"
-          ],
-          "duration": "23",
-          "rating": "PG-13",
-          "score": "10",
-          "trailer": "qwertz"
         }
       ]
     },
@@ -234,7 +211,7 @@
       "pageTitle": "2024 Tél",
       "items": [
         {
-          "itemId": 0,
+          "itemId": 11,
           "img": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
           "alt": "Chainsaw Man Picture",
           "title": "Chainsaw Man",
@@ -254,7 +231,7 @@
           "trailer": ""
         },
         {
-          "itemId": 1,
+          "itemId": 12,
           "img": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
           "alt": "Fullmetal Alchemist: Brotherhood Picture",
           "title": "Fullmetal Alchemist: Brotherhood",
@@ -274,7 +251,7 @@
           "trailer": ""
         },
         {
-          "itemId": 2,
+          "itemId": 13,
           "img": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg",
           "alt": "Steins;Gate Picture",
           "title": "Steins;Gate",
@@ -294,7 +271,7 @@
           "trailer": ""
         },
         {
-          "itemId": 3,
+          "itemId": 14,
           "img": "https://cdn.myanimelist.net/images/anime/3/72078.jpg",
           "alt": "Gintama Picture",
           "title": "Gintama",
@@ -314,7 +291,7 @@
           "trailer": ""
         },
         {
-          "itemId": 4,
+          "itemId": 15,
           "img": "https://cdn.myanimelist.net/images/anime/1517/100633.jpg",
           "alt": "Attack on Titan Picture",
           "title": "Attack on Titan",
@@ -334,7 +311,7 @@
           "trailer": ""
         },
         {
-          "itemId": 5,
+          "itemId": 16,
           "img": "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
           "alt": "Hunter x Hunter Picture",
           "title": "Hunter x Hunter",
@@ -354,7 +331,7 @@
           "trailer": ""
         },
         {
-          "itemId": 6,
+          "itemId": 17,
           "img": "https://cdn.myanimelist.net/images/anime/1908/135431.jpg",
           "alt": "Bleach: Thousand-Year Blood War Picture",
           "title": "Bleach: Thousand-Year Blood War",
@@ -374,7 +351,7 @@
           "trailer": ""
         },
         {
-          "itemId": 7,
+          "itemId": 18,
           "img": "https://cdn.myanimelist.net/images/anime/1088/135089.jpg",
           "alt": "Code Geass: Lelouch of the Rebellion Picture",
           "title": "Code Geass: Lelouch of the Rebellion",
@@ -394,7 +371,7 @@
           "trailer": ""
         },
         {
-          "itemId": 8,
+          "itemId": 19,
           "img": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
           "alt": "Monster Picture",
           "title": "Monster",
@@ -414,7 +391,7 @@
           "trailer": ""
         },
         {
-          "itemId": 9,
+          "itemId": 20,
           "img": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
           "alt": "Frieren: Beyond Journey's End Picture",
           "title": "Frieren: Beyond Journey's End",
@@ -440,7 +417,7 @@
       "pageTitle": "2023 Ősz",
       "items": [
         {
-          "itemId": 0,
+          "itemId": 21,
           "img": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
           "alt": "Frieren: Beyond Journey's End Picture",
           "title": "Frieren: Beyond Journey's End",
@@ -460,7 +437,7 @@
           "trailer": "Videos/Frieren_ Beyond Journey's End.mp4"
         },
         {
-          "itemId": 1,
+          "itemId": 22,
           "img": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
           "alt": "Fullmetal Alchemist: Brotherhood Picture",
           "title": "Fullmetal Alchemist: Brotherhood",
@@ -480,7 +457,7 @@
           "trailer": ""
         },
         {
-          "itemId": 2,
+          "itemId": 23,
           "img": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg",
           "alt": "Steins;Gate Picture",
           "title": "Steins;Gate",
@@ -500,7 +477,7 @@
           "trailer": ""
         },
         {
-          "itemId": 3,
+          "itemId": 24,
           "img": "https://cdn.myanimelist.net/images/anime/3/72078.jpg",
           "alt": "Gintama Picture",
           "title": "Gintama",
@@ -520,7 +497,7 @@
           "trailer": ""
         },
         {
-          "itemId": 4,
+          "itemId": 25,
           "img": "https://cdn.myanimelist.net/images/anime/1517/100633.jpg",
           "alt": "Attack on Titan Picture",
           "title": "Attack on Titan",
@@ -540,7 +517,7 @@
           "trailer": ""
         },
         {
-          "itemId": 5,
+          "itemId": 26,
           "img": "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
           "alt": "Hunter x Hunter Picture",
           "title": "Hunter x Hunter",
@@ -560,7 +537,7 @@
           "trailer": ""
         },
         {
-          "itemId": 6,
+          "itemId": 27,
           "img": "https://cdn.myanimelist.net/images/anime/1908/135431.jpg",
           "alt": "Bleach: Thousand-Year Blood War Picture",
           "title": "Bleach: Thousand-Year Blood War",
@@ -580,7 +557,7 @@
           "trailer": ""
         },
         {
-          "itemId": 7,
+          "itemId": 28,
           "img": "https://cdn.myanimelist.net/images/anime/1088/135089.jpg",
           "alt": "Code Geass: Lelouch of the Rebellion Picture",
           "title": "Code Geass: Lelouch of the Rebellion",
@@ -600,7 +577,7 @@
           "trailer": ""
         },
         {
-          "itemId": 8,
+          "itemId": 29,
           "img": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
           "alt": "Monster Picture",
           "title": "Monster",
@@ -620,7 +597,7 @@
           "trailer": ""
         },
         {
-          "itemId": 9,
+          "itemId": 30,
           "img": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
           "alt": "Chainsaw Man Picture",
           "title": "Chainsaw Man",
@@ -646,7 +623,7 @@
       "pageTitle": "2023 Nyár",
       "items": [
         {
-          "itemId": 0,
+          "itemId": 31,
           "img": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
           "alt": "Frieren: Beyond Journey's End Picture",
           "title": "Frieren: Beyond Journey's End",
@@ -666,7 +643,7 @@
           "trailer": "Videos/Frieren_ Beyond Journey's End.mp4"
         },
         {
-          "itemId": 1,
+          "itemId": 32,
           "img": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
           "alt": "Fullmetal Alchemist: Brotherhood Picture",
           "title": "Fullmetal Alchemist: Brotherhood",
@@ -686,7 +663,7 @@
           "trailer": ""
         },
         {
-          "itemId": 2,
+          "itemId": 33,
           "img": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg",
           "alt": "Steins;Gate Picture",
           "title": "Steins;Gate",
@@ -706,7 +683,7 @@
           "trailer": ""
         },
         {
-          "itemId": 3,
+          "itemId": 34,
           "img": "https://cdn.myanimelist.net/images/anime/3/72078.jpg",
           "alt": "Gintama Picture",
           "title": "Gintama",
@@ -726,7 +703,7 @@
           "trailer": ""
         },
         {
-          "itemId": 4,
+          "itemId": 35,
           "img": "https://cdn.myanimelist.net/images/anime/1517/100633.jpg",
           "alt": "Attack on Titan Picture",
           "title": "Attack on Titan",
@@ -746,7 +723,7 @@
           "trailer": ""
         },
         {
-          "itemId": 5,
+          "itemId": 36,
           "img": "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
           "alt": "Hunter x Hunter Picture",
           "title": "Hunter x Hunter",
@@ -766,7 +743,7 @@
           "trailer": ""
         },
         {
-          "itemId": 6,
+          "itemId": 37,
           "img": "https://cdn.myanimelist.net/images/anime/1908/135431.jpg",
           "alt": "Bleach: Thousand-Year Blood War Picture",
           "title": "Bleach: Thousand-Year Blood War",
@@ -786,7 +763,7 @@
           "trailer": ""
         },
         {
-          "itemId": 7,
+          "itemId": 38,
           "img": "https://cdn.myanimelist.net/images/anime/1088/135089.jpg",
           "alt": "Code Geass: Lelouch of the Rebellion Picture",
           "title": "Code Geass: Lelouch of the Rebellion",
@@ -806,7 +783,7 @@
           "trailer": ""
         },
         {
-          "itemId": 8,
+          "itemId": 39,
           "img": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
           "alt": "Monster Picture",
           "title": "Monster",
@@ -826,7 +803,7 @@
           "trailer": ""
         },
         {
-          "itemId": 9,
+          "itemId": 40,
           "img": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
           "alt": "Chainsaw Man Picture",
           "title": "Chainsaw Man",
