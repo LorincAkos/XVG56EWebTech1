@@ -38,8 +38,18 @@
 
 }
 
-.episode{
-    grid-area: episode;
+.volume{
+    grid-area: volume;
+    margin-top: 5px;
+}
+
+.chapter{
+    grid-area: chapter;
+    margin-top: 5px;
+}
+
+.author{
+    grid-area: author;
     margin-top: 5px;
 }
 
@@ -58,18 +68,6 @@
     margin-top: 5px;
 }
 
-.producer{
-    grid-area: producer;
-    margin-top: 5px;
-}
-.licencor{
-    grid-area: licencor;
-    margin-top: 5px;
-}
-.studio{
-    grid-area: studio;
-    margin-top: 5px;
-}
 .genre{
     grid-area: genre;
     margin-top: 5px;
@@ -90,10 +88,10 @@
     grid-template-areas: 
         "title  .               ."
         "img    desc            desc"
-        "score  episode         type"
-        ".      airing          status"
-        ".      producer        licencor"
-        ".      studio          genre"
+        "score  volume         type"
+        ".      chapter          status"
+        ".      airing         author"
+        ".      studio         genre "
         ".      duration        rating"
         ".      .               .";
 
@@ -110,13 +108,11 @@
         "img"
         "score"
         "desc"
-        "episode"
+        "volume"
+        "chapter"
         "type"
         "airing"
         "status"
-        "producer"
-        "licencor"
-        "studio"
         "genre"
         "duration"
         "rating";
@@ -148,7 +144,19 @@
         margin-top: 40px;
         text-align: center;
     }
-    .episode{
+    .volume{
+        margin-top: 15px;
+        width: 300px;
+        text-align: left;
+    }
+
+    .chapter{
+        margin-top: 5px;
+        width: 300px;
+        text-align: left;
+    }
+
+    .author{
         margin-top: 5px;
         width: 300px;
         text-align: left;
@@ -172,21 +180,6 @@
         text-align: left;
     }
     
-    .producer{
-        margin-top: 5px;
-        width: 300px;
-        text-align: left;
-    }
-    .licencor{
-        margin-top: 5px;
-        width: 300px;
-        text-align: left;
-    }
-    .studio{
-        margin-top: 5px;
-        width: 300px;
-        text-align: left;
-    }
     .genre{
         margin-top: 5px;
         width: 300px;

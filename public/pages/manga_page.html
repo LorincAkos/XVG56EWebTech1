@@ -30,7 +30,7 @@
               <a href="anime_page" class="navbar_links" onclick="removePageId()">Anime</a>
             </li>
             <li class="navbar_item">
-              <a href="manga_page" class="navbar_links">Manga</a>
+              <a href="manga_page" class="navbar_links" onclick="removePageId()">Manga</a>
             </li>
             <li class="navbar_btn">
               <a href="add_anime" class="button">+ Add</a>
@@ -55,12 +55,14 @@
       </div>
     </section>
 
-    <!--Add new record button-->
+    <!--Seasons-->
     <section>
-      <div class="add-anime-button-container">
-        <a href="add_anime" class="add-anime-button">Add</a>
+      <button type="button" class="collapsible" id="collapsible-button">Seasons</button>
+      <div class="season-container" id="seasons">
+
       </div>
     </section>
+    
     <!--Cards-->
     <section>
       <div class="card-container" id="content">

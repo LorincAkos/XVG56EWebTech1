@@ -37,6 +37,10 @@ app.get('/manga_page', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/pages/manga_page.html'));
 });
 
+app.get('/manga_description', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/pages/manga_description.html'));
+});
+
 // Endpoint to handle form submission
 app.post('/submit-anime', (req, res) => {
     const newItem = req.body;
