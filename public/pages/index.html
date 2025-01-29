@@ -25,10 +25,14 @@
               <a href="/" class="navbar_links">Home</a>
             </li>
             <li class="navbar_item">
-              <a href="anime_page" class="navbar_links" onclick="removePageId()">Anime</a>
+              <a href="anime_page" class="navbar_links" onclick="removePageId()"
+                >Anime</a
+              >
             </li>
             <li class="navbar_item">
-              <a href="manga_page" class="navbar_links" onclick="removePageId()">Manga</a>
+              <a href="manga_page" class="navbar_links" onclick="removePageId()"
+                >Manga</a
+              >
             </li>
             <li class="navbar_btn">
               <a href="add_anime" class="button">+ Add</a>
@@ -49,6 +53,103 @@
         </div>
         <div class="slide">
           <img src="Images/tg_img.jpg" alt="Slide 3" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <h2 id="eng-sites">Angol Anime Streamelő Oldalak</h2>
+        <div class="anime-list">
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://www.crunchyroll.com')"
+          >
+            <img
+              src="https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow"
+              alt="Anime Title"
+            />
+            <h3>Crunchyroll</h3>
+          </div>
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://www.funimation.com')"
+          >
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/41VoTPYjdPL.png"
+              alt="Anime Title"
+            />
+            <h3>Funimation</h3>
+          </div>
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://9anime.se')"
+          >
+            <img
+              src="https://image.winudf.com/v2/image1/Y29tLm5pbmVhbmltZWFwcF9zY3JlZW5fMF8xNjEzNTE1NzEzXzA3MA/screen-0.jpg?h=500&fakeurl=1&type=.jpg"
+              alt="Anime Title"
+            />
+            <h3>9 Anime</h3>
+          </div>
+        </div>
+
+        <h2 id="hun-sites">Magyar Anime Streamelő Oldalak</h2>
+        <div class="anime-list">
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://animegun.hu')"
+          >
+            <img src="Image/animegun.jpg" alt="Anime Title" />
+            <h3>Animegun</h3>
+          </div>
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://magyaranime.hu')"
+          >
+            <img src="Image/magyaranime.jpg" alt="Anime Title" />
+            <h3>MagyarAnime</h3>
+          </div>
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://animem.org')"
+          >
+            <img src="Image/animem.jpg" alt="Anime Title" />
+            <h3>Animem</h3>
+          </div>
+        </div>
+
+        <h2 id="manga-sites">Manga Olvasó Oldalak</h2>
+        <div class="anime-list">
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://mangarock.com')"
+          >
+            <img
+              src="https://styles.redditmedia.com/t5_3nrx2/styles/communityIcon_baeikgxpx8k21.png"
+              alt="Anime Title"
+            />
+            <h3>Manga Rock</h3>
+          </div>
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://fanfox.net')"
+          >
+            <img
+              src="https://play-lh.googleusercontent.com/qW1NG1m4eCXH1EwgBEkcm7XCq60LxVqNjt47SgOcJi6trRoCtQvFbRfOdykPzqSFS_c"
+              alt="Anime Title"
+            />
+            <h3>Manga Fox</h3>
+          </div>
+          <div
+            class="anime-item"
+            onclick="openThirdPartyPage('https://store.crunchyroll.com/collections/manga/')"
+          >
+            <img
+              src="https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow"
+              alt="Anime Title"
+            />
+            <h3>Crunchyroll</h3>
+          </div>
         </div>
       </div>
     </section>

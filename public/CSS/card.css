@@ -21,6 +21,11 @@
     border-radius: 10px;
     text-decoration: none;
   }
+
+  .card:hover{
+    width: calc(85% + 20px);
+  }
+
   .card-image {
     width: 100%;
   }
@@ -104,6 +109,10 @@
     .card {
       width: calc(60% + 20px);
     }
+
+    .card:hover{
+      width: calc(65% + 20px);
+    }
   
     .season-container {
       grid-template-columns: repeat(8, 1fr);
@@ -120,6 +129,10 @@
     }
     .card {
       width: calc(50% + 20px);
+    }
+
+    .card:hover{
+      width: calc(55% + 20px);
     }
   
     .season-container {

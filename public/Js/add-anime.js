@@ -30,7 +30,7 @@ function handleForm(event) {
     duration: document.getElementById("duration").value,
     rating: document.getElementById("rating").value,
     score: document.getElementById("score").value,
-    trailer: "qwertz",
+    trailer: "",
   };
   
   // Send the data to the server
