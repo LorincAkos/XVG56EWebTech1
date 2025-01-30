@@ -51,9 +51,10 @@ body{
 }
 
 .main-container{
-    margin-left: 5%;
-    width: 80%;
+    width: 100%;
     float: left;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .anime-list {
@@ -97,6 +98,7 @@ main {
 
 h2{
     color: white;
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 640px){

@@ -1,7 +1,7 @@
-document.getElementById("anime_form").addEventListener("submit",handleForm);
+document.getElementById("anime_form").addEventListener("submit", handleForm);
 
 function handleForm(event) {
-  event.preventDefault(); // Prevents the form from submitting
+  event.preventDefault(); 
 
   const genres = document.getElementById("genres");
   const selectedGenres = [];
@@ -12,6 +12,7 @@ function handleForm(event) {
     }
   }
 
+ 
   const newItem = {
     itemId: 0,
     img: document.getElementById("img").value,
@@ -32,8 +33,7 @@ function handleForm(event) {
     score: document.getElementById("score").value,
     trailer: "",
   };
-  
-  // Send the data to the server
+
   fetch("/submit-anime", {
     method: "POST",
     headers: {
@@ -41,14 +41,14 @@ function handleForm(event) {
     },
     body: JSON.stringify(newItem)
   })
-  .then(response => response.json())
-  .then(data => {
-    console.log("Success:", data);
-    alert("New item added successfully!");
-  })
-  .catch((error) => {
-    console.error("Error:", error);
-    alert("Error submitting the form.");
-  });
+    .then(response => response.json())
+    .then(data => {
+      console.log("Success:", data);
+      alert("New item added successfully!");
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      alert("Error submitting the form.");
+    });
 
 }

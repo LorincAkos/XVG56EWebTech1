@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -10,13 +9,10 @@ const dataFilePath = path.join(__dirname, 'public/Data/anime_data.json');
 
 let pageId;
 
-// Middleware to parse JSON request bodies
 app.use(bodyParser.json());
 
-// Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Define routes to serve the HTML files
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/pages/index.html'));
 });
@@ -41,11 +37,9 @@ app.get('/manga_description', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/pages/manga_description.html'));
 });
 
-// Endpoint to handle form submission
 app.post('/submit-anime', (req, res) => {
     const newItem = req.body;
 
-    // Read the existing JSON data
     fs.readFile(dataFilePath, 'utf8', (err, data) => {
         if (err) {
             console.error(`Error reading the file: ${err}`);
@@ -60,11 +54,13 @@ app.post('/submit-anime', (req, res) => {
             return res.status(500).json({ message: 'Error parsing the JSON file.' });
         }
 
-        pageId = localStorage.getItem("pageId");
-        newItem.itemId = jsonData[pageId].items.length;
+
+        itemCount = jsonData.reduce((sum, page) => sum + page.items.length, 0);;
+
+        pageId = 0;
+        newItem.itemId = itemCount + 1;
         jsonData[pageId].items.push(newItem);
 
-        // Write the updated data back to the file
         const updatedData = JSON.stringify(jsonData, null, 2);
         fs.writeFile(dataFilePath, updatedData, 'utf8', (err) => {
             if (err) {
